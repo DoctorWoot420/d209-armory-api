@@ -1,4 +1,4 @@
-module github.com/nokka/d2-armory-api
+module github.com/DoctorWoot420/d209-armory-api
 
 go 1.15
 

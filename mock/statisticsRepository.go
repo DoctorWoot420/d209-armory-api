@@ -3,7 +3,7 @@ package mock
 import (
 	"context"
 
-	"github.com/nokka/d2-armory-api/internal/domain"
+	"github.com/DoctorWoot420/d209-armory-api/internal/domain"
 )
 
 // StatisticsRepository is a mock implementation of the statistics repository.

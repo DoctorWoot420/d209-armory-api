@@ -5,9 +5,9 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/nokka/d2-armory-api/internal/domain"
+	"github.com/DoctorWoot420/d209-armory-api/internal/domain"
 
-	"github.com/nokka/d2-armory-api/mock"
+	"github.com/DoctorWoot420/d209-armory-api/mock"
 )
 
 func TestParse(t *testing.T) {

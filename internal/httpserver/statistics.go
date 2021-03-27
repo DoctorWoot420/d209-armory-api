@@ -5,9 +5,9 @@ import (
 	"encoding/json"
 	"net/http"
 
+	"github.com/DoctorWoot420/d209-armory-api/internal/domain"
 	"github.com/go-chi/chi"
 	"github.com/go-chi/chi/middleware"
-	"github.com/nokka/d2-armory-api/internal/domain"
 )
 
 // statisticsService encapsulates the business logic around statistics.

@@ -4,8 +4,8 @@ import (
 	"context"
 	"net/http"
 
+	"github.com/DoctorWoot420/d209-armory-api/internal/domain"
 	"github.com/go-chi/chi"
-	"github.com/nokka/d2-armory-api/internal/domain"
 )
 
 // characterService represents the functionality we need to perform our character requests.

@@ -5,7 +5,7 @@ import (
 	"errors"
 	"net/http"
 
-	"github.com/nokka/d2-armory-api/internal/domain"
+	"github.com/DoctorWoot420/d209-armory-api/internal/domain"
 )
 
 type encoder struct{}
