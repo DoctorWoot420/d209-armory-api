@@ -6,7 +6,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/DoctorWoot420/d209-armory-api/internal/domain"
+	"github.com/doctorwoot420/d209-armory-api/internal/domain"
 )
 
 var validDifficulties = map[string]struct{}{

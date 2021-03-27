@@ -5,7 +5,7 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"github.com/DoctorWoot420/d209-armory-api/internal/domain"
+	"github.com/doctorwoot420/d209-armory-api/internal/domain"
 	"github.com/go-chi/chi"
 	"github.com/go-chi/chi/middleware"
 )

@@ -4,7 +4,7 @@ import (
 	"context"
 	"net/http"
 
-	"github.com/DoctorWoot420/d209-armory-api/internal/domain"
+	"github.com/doctorwoot420/d209-armory-api/internal/domain"
 	"github.com/go-chi/chi"
 )
 

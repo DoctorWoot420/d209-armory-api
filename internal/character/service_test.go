@@ -7,9 +7,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/DoctorWoot420/d209-armory-api/internal/domain"
+	"github.com/doctorwoot420/d209-armory-api/internal/domain"
 
-	"github.com/DoctorWoot420/d209-armory-api/mock"
+	"github.com/doctorwoot420/d209-armory-api/mock"
 )
 
 func TestParseCharacter(t *testing.T) {

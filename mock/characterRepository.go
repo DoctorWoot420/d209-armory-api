@@ -3,7 +3,7 @@ package mock
 import (
 	"context"
 
-	"github.com/DoctorWoot420/d209-armory-api/internal/domain"
+	"github.com/doctorwoot420/d209-armory-api/internal/domain"
 )
 
 // CharacterRepository is a mock implementation of the character repository.

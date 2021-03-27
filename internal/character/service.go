@@ -6,7 +6,7 @@ import (
 	"regexp"
 	"time"
 
-	"github.com/DoctorWoot420/d209-armory-api/internal/domain"
+	"github.com/doctorwoot420/d209-armory-api/internal/domain"
 )
 
 // parser is the interface representation of a d2 parser the service depend on.

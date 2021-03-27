@@ -1,7 +1,7 @@
 package mock
 
 import (
-	"github.com/DoctorWoot420/d209-armory-api/internal/domain"
+	"github.com/doctorwoot420/d209-armory-api/internal/domain"
 )
 
 // Parser is a mock implementation of the character parser.
