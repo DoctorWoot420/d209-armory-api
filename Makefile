@@ -1,6 +1,5 @@
 GHCR_REPO=ghcr.io/doctorwoot420/d209-armory-api
 GHCR_COMMIT_TAG=$(GHCR_REPO):commit-$(GITHUB_SHA)
-
 VALID_TAG=$(shell echo $(TAG_NAME) | sed 's/[^a-z0-9_\.-]/-/g')
 
 # Builds a local docker image for local use.
