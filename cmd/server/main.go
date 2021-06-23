@@ -28,17 +28,11 @@ func main() {
 		databaseName       = env.String("MONGO_DB", "armory")
 		mongoUsername      = env.String("MONGO_USERNAME", "")
 		mongoPassword      = env.String("MONGO_PASSWORD", "")
-		d2sPath            = env.String("D2S_PATH", "")
-		cacheDuration      = env.String("CACHE_DURATION", "3m")
+		cacheDuration      = env.String("CACHE_DURATION", "5s")
 		statisticsUser     = env.String("STATISTICS_USER", "")
 		statisticsPassword = env.String("STATISTICS_PASSWORD", "")
-		corsEnabled        = env.String("CORS_ENABLED", "false")
+		corsEnabled        = env.String("CORS_ENABLED", "true")
 	)
-
-	if d2sPath == "" {
-		log.Println("d2s path missing")
-		os.Exit(0)
-	}
 
 	if statisticsUser == "" {
 		log.Println("statistics credentials user is missing")
@@ -101,7 +95,7 @@ func main() {
 	statisticsRepository := mgo.NewStatisticsRepository(databaseName, client)
 
 	// Business logic services.
-	parser := parsing.NewParser(d2sPath)
+	parser := parsing.NewParser()
 	characterService := character.NewService(parser, characterRepository, cd)
 	statisticsService := statistics.NewService(statisticsRepository)
 
